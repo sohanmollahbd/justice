@@ -1,0 +1,66 @@
+/* utilities */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
+
+.poppins {
+   font-family: 'Poppins', sans-serif;
+}
+.EB-Garamond {
+   font-family: 'EB Garamond', serif;
+}
+
+/* btn  */
+.Justice-btn {
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 27px;
+   border-radius: 8px;
+   background: #B68C5A;
+   padding: 18px 29px;
+   border: none;
+}
+.Justice-btn:hover {
+   background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+   color: black;
+}
+/* banner */
+.banner-image {
+   background-image: url('/images/banner.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+
+.form input[type="search"]:focus {
+   border: none !important;
+   color: #B68C5A;
+}
+
+/* practice-area  */
+.practice-cards .card:hover {
+   border: 1px solid #E7E7E7;
+   background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+   cursor: pointer;
+}
+.practice-cards .col {
+   padding-right: 0 !important;
+   padding-left: 0 !important;
+}
+.practice-area-img {
+   width: 71.798px;
+   height: 72.343px;
+}
+
+/* clients area  */
+.c-item {
+   height: 500px !important;
+}
+
+.c-img {
+   height: 100% !important;
+   object-fit: cover !important;
+   filter: brightness(.80);
+}
