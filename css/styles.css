@@ -64,3 +64,20 @@
    object-fit: cover !important;
    filter: brightness(.80);
 }
+
+
+
+/* accordion */
+.accordion-item, 
+.accordion-button {
+   background-color: #F3F3F3 !important;
+   color: #414040 !important;
+}
+.accordion-button::after {
+   background-image: url('../images/accordion-button.svg') !important;
+}
+.accordion-button:focus {
+   border-bottom: 0 !important;
+   box-shadow: none !important;
+   color: #414040;
+}
