@@ -79,5 +79,5 @@
 .accordion-button:focus {
    border-bottom: 0 !important;
    box-shadow: none !important;
-   color: #414040;
+   color: #414040 !important;
 }
