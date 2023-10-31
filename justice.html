@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="container-lg">
+<body>
    <!-- header section  -->
-   <header>
+   <header class="container">
       <nav class="navbar navbar-expand-lg">
          <div class="container-fluid">
            <a class="navbar-brand" href="#">
@@ -66,7 +66,7 @@
  
    <main>
       <!-- practice area  -->
-      <section>
+      <section class="container">
         <h1 class="text-center EB-Garamond mt-4 mt-md-5 pt-md-4 pt-0">The Legal Practice Area</h1>
         <p class="text-center poppins fw-normal opacity-75">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
 
@@ -150,7 +150,7 @@
       </section>
 
       <!-- Clients section  -->
-      <section>
+      <section class="container">
         <h1 class="text-center EB-Garamond mt-4 mt-md-5 pt-md-4 pt-0">What Our Client Say</h1>
         <p class="text-center poppins fw-normal opacity-75">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
 
@@ -203,7 +203,7 @@
       </section>
 
       <!-- accordion section  -->
-      <section>
+      <section class="container">
         <h1 class="text-center EB-Garamond mt-4 mt-md-5 pt-md-4 pt-0">Frequently Asked Any Questions</h1>
         <p class="text-center poppins fw-medium opacity-75">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
 
@@ -255,6 +255,55 @@
       </section>
 
    </main>
+   
+   <!-- footer  -->
+   <footer class="bg-black container-fluid pb-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 pt-5 mt-5 container-lg mx-auto flex-column-reverse flex-md-row">
+      <div class="col mt-5 mt-md-3 mt-lg-0">
+        <img src="images/footer-logo.svg" class="mb-4" alt="">
+        <p class="text-white poppins opacity-50">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+      </div>
+      <div class="col mt-5 mt-md-3 mt-lg-0">
+        <ul class="ps-0 ps-lg-4">
+          <li class="mb-4 pb-3"><a href="" class="fw-bold text-decoration-none text-white EB-Garamond fs-5">Usefull Link</a></li>
+          <li class="pb-3"><a href="" class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50">Homes</a></li>
+          <li class="pb-3"><a href="" class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50">About Us</a></li>
+          <li class="pb-3"><a href="" class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50">Cases</a></li>
+          <li class="pb-3"><a href="" class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50">Blog</a></li>
+          <li ><a href="" class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col mt-5 mt-md-3 mt-lg-0">
+        <a class="mb-4 pb-3 fw-bold text-decoration-none text-white EB-Garamond fs-5" href="">Contact Now</a>
+        <address class="mt-4 text-white pt-3 poppins opacity-50">
+          555 4th 5t NW, Washington <br> DC 20530, United States
+        </address>
+        <a class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50" href="tel:+8801750000000">+88 01750 000 000</a><br>
+        <a class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50" href="tel:+8801750000000">+88 01750 000 000</a>
+        <p class="mt-2 mb-2"><a class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50" href="mailto:info@gmail.com">info@gmail.com</a></p>
+        <p><a class="fw-bold text-decoration-none text-white Poppins fw-normal opacity-50" href="mailto:info@gmail.com">info@gmail.com</a></p>
+      </div>
+      <div class="col mt-5 mt-md-3 mt-lg-0">
+        <a class="mb-4 pb-3 fw-bold text-decoration-none text-white EB-Garamond fs-5" href="">Subscribe</a>
+        <p class="text-white poppins opacity-50 mt-4 pt-3">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
+        <div>
+          <input class="poppins fw-normal rounded-3" type="email" name="" id="" placeholder="Email Address">
+          <button class="border-0 rounded-3" style="background: #B68C5A;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <g clip-path="url(#clip0_12_37)">
+              <path d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_12_37">
+                <rect width="24" height="24" fill="white" transform="translate(0 17) rotate(-45)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        </div>
+      </div>
+    </div>
+   </footer>
 
   <!-- bs js  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

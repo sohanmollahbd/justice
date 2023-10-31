@@ -76,8 +76,26 @@
 .accordion-button::after {
    background-image: url('../images/accordion-button.svg') !important;
 }
+.accordion-button:focus::after {
+   background-image: url('../images/accordion-btn-plus.svg') !important;
+}
 .accordion-button:focus {
    border-bottom: 0 !important;
    box-shadow: none !important;
    color: #414040 !important;
+}
+
+
+/* footer */
+footer ul {
+   list-style: none !important;
+}
+footer input[type="email"]{
+   padding: 17.5px;
+}
+
+
+footer button {
+   margin-left: -18px !important;
+   padding: 13.8px;
 }
