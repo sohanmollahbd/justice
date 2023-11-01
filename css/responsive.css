@@ -1,0 +1,23 @@
+/* mobile */
+@media screen and (max-width: 767px) {
+   /* practice area  */
+   .practice-cards .card {
+      border: 1px solid #E7E7E7 !important;
+   }
+   /* contact */
+   .contact .card {
+      border: 0 !important;
+    }
+   .submit-btn {
+      padding: 13px 53px !important;
+   }
+}
+
+/* tab  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   /* practice area  */
+   .practice-cards .card {
+      border: 1px solid #E7E7E7 !important;
+   }
+ }
+ 

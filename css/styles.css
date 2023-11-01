@@ -1,3 +1,11 @@
+body {
+   margin: 0
+}
+
+::selection {
+   color: #000000;
+   background-color: #B68C5A;
+}
 /* utilities */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
 
@@ -25,6 +33,26 @@
    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
    color: black;
 }
+.submit-btn {
+   border-radius: 8px;
+   background: #B68C5A !important;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding: 21px 287px;
+   border: 0;
+   border:1px solid transparent;
+}
+.submit-btn:hover {
+   background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%) !important;
+   color: black;
+   border: 1px solid #414040;
+}
+
+
 /* banner */
 .banner-image {
    background-image: url('../images/banner.png');
@@ -32,11 +60,6 @@
    background-repeat: no-repeat;
    background-position: center center;
 
-}
-
-.form input[type="search"]:focus {
-   border: none !important;
-   color: #B68C5A;
 }
 
 /* practice-area  */
@@ -58,7 +81,6 @@
 .c-item {
    height: 500px !important;
 }
-
 .c-img {
    height: 100% !important;
    object-fit: cover !important;
@@ -85,6 +107,33 @@
    color: #414040 !important;
 }
 
+/* contact area  */
+.contact .card {
+   background-color: #F3F3F3 !important;
+   border-radius: 0 !important;
+   border-color: #CFCFCF !important;
+}
+.contact-img-icon {
+   width: 40px;
+   height: 40px
+}
+.contact .card:hover {
+   background: linear-gradient(180deg, #00000022 0%, rgba(255, 255, 255, 0) 100% );
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+   background-color: #F3F3F3 !important;
+   border: none !important;
+}
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact textarea:focus {
+   box-shadow: none !important;
+}
+.contact textarea{
+   margin-bottom: 35px !important;
+}
 
 /* footer */
 footer ul {
@@ -93,9 +142,7 @@ footer ul {
 footer input[type="email"]{
    padding: 17.5px;
 }
-
-
 footer button {
-   margin-left: -18px !important;
-   padding: 13.8px;
+   margin-left: -50px !important;
+   padding: 14.05px 13.3px  13px 13.3px !important;
 }
